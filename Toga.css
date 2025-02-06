@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/17/c9/af/17c9af4474862e852543c1312bead421.jpg);
+}
+
+form{
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    background-color: #092d55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   text-align: center;
+   width: 30%;
+   gap: 20px;
+   padding: 60px;
+   border-radius: 50px;
+   top: 25%;
+   left: 10%;
+}
+.p2{
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    background-color: #092d55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   text-align: center;
+   width: 30%;
+   height: 42%;
+   gap: 1px;
+   padding: 60px;
+   border-radius: 50px;
+   top: 25%;
+   left: 50%;
+}
+button{
+    background-color: #4783f3;
+    width: 200px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 43%;
+    margin-left: 11%;
+}
+h1{
+    color: #5ba1f1;
+    font-size: 200%;
+}
+input{
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+h3{
+    font-size: 200%;
+}
+img{
+    margin-left: 70%;
+}
