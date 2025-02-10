@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/17/c9/af/17c9af4474862e852543c1312bead421.jpg);
+}
+button{
+    background-color: #4783f3;
+    width: 200px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+h1{
+    color: #f15bd8;
+}
+form{
+    margin-top: 10%;
+}
+h2{
+    font-size: 500%;
+    color: #f15bd8;
+} 
