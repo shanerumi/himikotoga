@@ -1,0 +1,77 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}  
+
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.p1{
+background-color: rgb(0, 0, 0);
+width: 901px;
+height: 963px;
+color: rgb(255, 255, 255);
+text-align: center;
+align-content: center;
+font-size: 51px;
+border-radius: 0 35px 34px 0;
+box-shadow: 2px 2px 12px rgb(75, 75, 75);
+}
+
+
+.p2{
+width: 1020;
+padding: 21px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 21px;
+}
+
+
+.p2 h1{
+font-size: 51px;
+}
+
+.p2 form{
+display: flex;
+flex-direction: column;
+gap: 21px;
+}
+
+input[type="text"], input[type="password"]{
+    padding: 9px;
+    font-size: 21px;
+    width: 399px;
+    border-radius: 15px 0 15px 0;
+    transition: 0.10 ease-in;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    padding: 9px;
+    font-size: 21px;
+    width: 399px;
+    border-radius: 0 15px 0 15px ;
+}
+
+.p2 button{
+width: 150px;
+padding: 9px;
+border-radius: 15px 0 15px 0;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
+
+.p2 button:hover{
+width: 150px;
+padding: 9px;
+border-radius: 0 30px 0 30px;
+background-color: floralwhite;
+    color: #000000;
+}
