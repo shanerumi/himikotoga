@@ -1,70 +1,42 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
     class Program
     {
         static void Main(string[] args)
-        //{
-
-        //    Console.ForegroundColor = ConsoleColor.Yellow;
-        //    Console.WriteLine("counting form 1 to 5!");
-
-        //    for (int i = 1; i <= 5; i++)
-        //    {
-        //        Console.ForegroundColor = ConsoleColor.Green;
-        //        Console.WriteLine($"number: " + i);
-        //    }
-        //    Console.ReadKey();
-        //}
-
-        //int i = 1;
-
-        //Console.ForegroundColor = ConsoleColor.Yellow;
-        //Console.WriteLine("Counting from 1 to 5!");
-
-        //do
-        //{
-        //    Console.ForegroundColor = ConsoleColor.Green;
-        //    Console.WriteLine($"Number: " + i);
-        //    i++;
-
-        //}
-        //while(i <= 5);
-        //Console.ReadKey();
-        //}
-
         {
-            char []row1 = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
-            char []row2 = { 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P'};
-            char []row3 = { 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X'};
-            char []row4 = { 'Y', 'Z', '1', '2', '3', '4', '5', '6'};
+            char[] row1 = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+            char[] row2 = { 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P' };
+            char[] row3 = { 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X' };
+            char[] row4 = { 'Y', 'Z', '1', '2', '3', '4', '5', '6' };
 
-            for(int i = 1; i <= 8; i++)
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            for (int i = 0; i < 8; i++)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(row1[i] + " ");
             }
-            for (int j = 1; j <= 8; j++)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write(row2[j] + " ");
+            Console.WriteLine();
 
-            }
-            for (int k = 1; k <= 8; k++)
+            for (int j = 0; j < 8; j++)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(row2[j] + " ");
+            }
+            Console.WriteLine();
+
+            for (int k = 0; k < 8; k++)
+            {
                 Console.Write(row3[k] + " ");
             }
-            for (int l = 1; l <= 8; l++)
+            Console.WriteLine();
+
+            for (int l = 0; l < 8; l++)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write(row3[l] + " ");
+                Console.Write(row4[l] + " ");
             }
+
+            Console.ResetColor();
             Console.ReadKey();
         }
     }
